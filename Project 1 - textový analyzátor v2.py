@@ -107,11 +107,11 @@ for x in text:
             record[length] = 1
             
 print("\n-----------------------------------------------------------------\n")
-print("There are", len(text), "words in the selected text.")         
-print("There are", capital_letter_A, "words in the selected text.")
-print("There are", capital_letters, "titlecase words.")   
-print("There are", lower_letter, "lowercase words.")
-print("There are", numeric, "numeric strings.")
+print("There are", len(text) ,"words in the selected text.")         
+print("There are", capital_letter_A ,"words in the selected text.")
+print("There are", capital_letters ,"titlecase words.")   
+print("There are", lower_letter ,"lowercase words.")
+print("There are", numeric ,"numeric strings.")
 print("The sum of all the numbers is", total)
 
 sorted_words = sorted(record.items(), key=lambda x: x[0])
